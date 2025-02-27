@@ -147,9 +147,9 @@ def print_important_terms(resume_name, jd_text, vectorizer, num_terms=10):
     # Sort and print top terms
     sorted_terms = sorted(important_terms.items(), key=lambda x: x[1], reverse=True)[:num_terms]
     
-    print(f"\nKey matching terms in '{resume_name}':")
-    for term, score in sorted_terms:
-        print(f"- {term}: {score:.4f}")
+    # print(f"\nKey matching terms in '{resume_name}':")
+    # for term, score in sorted_terms:
+    #     print(f"- {term}: {score:.4f}")
 
 # Example usage
 if __name__ == "__main__":
